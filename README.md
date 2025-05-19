@@ -9,6 +9,12 @@ Daily quest is a gameplay feature within the game where players need to complete
 
 This repository stores a large number of Top Dailyquest Bonus Sequences to help players complete tasks more easily or consistently secure top positions on the leaderboard.
 
+## 🔗 Link
+
+This repository is exclusively published on GitHub and the Infinitode Chinese Community.
+
+Infinitode喝奶茶2群群号1020322961。
+
 ## 🚀 Getting Started
 
 Using the sequence is very simple. Before that, however, make sure you have a good understanding of infinitode daily quests and are clear on the following points.
