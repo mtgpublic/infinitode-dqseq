@@ -1,5 +1,9 @@
 <p align="right">
-   <strong>中文</strong> | <a href="/README">English</a>
+   {% if jekyll.environment == "production" %}
+      <strong>中文</strong> | <a href="/README">English</a>
+   {% else %}
+      <strong>中文</strong> | <a href="./README.md">English</a>
+   {% endif %}
 </p>
 
 <h1 align="center" style="font-weight: bold;">infinitode每日序列 💻</h1>
