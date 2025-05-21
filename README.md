@@ -1,9 +1,5 @@
 <p align="right">
-   {% if jekyll.environment == "production" %}
-      <a href="/README.zh_CN">中文</a> | <strong>English</strong>
-   {% else %}
-      <a href="/README.zh_CN.md">中文</a> | <strong>English</strong>
-   {% endif %}
+      <a href="https://mtgpublic.github.io/infinitode-dqseq/README.zh_CN">中文</a> | <strong>English</strong>
 </p>
 
 <h1 align="center" style="font-weight: bold;">infinitode-dqseq 💻</h1>

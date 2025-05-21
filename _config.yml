@@ -1,0 +1,6 @@
+include:
+  - "README.md"
+  - "README.zh_CN.md"
+
+permalinks:
+  pretty: true
