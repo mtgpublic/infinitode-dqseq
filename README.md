@@ -1,7 +1,7 @@
 <p align="right">
    <a href="./README.zh_CN.md">中文</a> | <strong>English</strong>
 </p>
-<div align="center">
+
 <h1 align="center" style="font-weight: bold;">infinitode-dqseq 💻</h1>
 <p align="center" style="font-weight: bold;">A Library/Database of Infinitode Top Dailyquest Bonus Sequence</p>
 

@@ -1,7 +1,7 @@
 <p align="right">
    <strong>中文</strong> | <a href="./README.md">English</a>
 </p>
-<div align="center">
+
 <h1 align="center" style="font-weight: bold;">infinitode每日序列 💻</h1>
 <p align="center" style="font-weight: bold;">Infinitode顶级每日序列数据库</p>
 
