@@ -1,5 +1,5 @@
 <p align="right">
-   <a href="./README.zh_CN.md">中文</a> | <strong>English</strong>
+   <a href="./README.zh_CN">中文</a> | <strong>English</strong>
 </p>
 
 <h1 align="center" style="font-weight: bold;">infinitode-dqseq 💻</h1>
