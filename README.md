@@ -79,6 +79,8 @@ The sequences are already sorted, and generally, the earlier sequences are the s
 
 The sequences also include summaries, detailed descriptions, scores, and other information to assist in your sequence selection. If needed, please refer to the extended guide below.  
 
+* [Abbreviation](https://mtgpublic.github.io/infinitode-dqseq/guide/Abbreviation)
+
 ## 📝 Roadmap
 
 - [ ] Support Json data
