@@ -67,12 +67,24 @@ Bounty upgrades in the core of DQ8 will affect your Bonus. The data will indicat
 
 This means you need to complete the previous stage's selection before choosing bounty, and dont't trigger the next stage's selection (fulfilling the enemy kill conditions for the next stage's selection). 
 
+## 🎮 Usage  
+
+If you've gone through the "Quick Start" section, you'll find it easy to grasp how to use the sequences.  
+
+All released data is stored in the `archive` directory in xlsx format, where you can locate sequence data for all stages of the day by date.  
+
+The sequences are already sorted, and generally, the earlier sequences are the stronger ones.  
+
+### Advanced Usage 
+
+The sequences also include summaries, detailed descriptions, scores, and other information to assist in your sequence selection. If needed, please refer to the extended guide below.  
+
 ## 📝 Roadmap
 
 - [ ] Support Json data
-- [ ] Data Multi-language Support
+- [x] Data Multi-language Support
   - [x] Chinese
-  - [ ] English
+  - [x] English
 
 ## 📫 Contact
 

@@ -1,6 +1,8 @@
 include:
   - "README.md"
   - "README.zh_CN.md"
+  - "guide/Abbreviation.md"
+  - "guide/Abbreviation.zh_CN.md"
 
 permalinks:
   pretty: true
