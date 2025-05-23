@@ -3,6 +3,8 @@ include:
   - "README.zh_CN.md"
   - "guide/Abbreviation.md"
   - "guide/Abbreviation.zh_CN.md"
+  - "guide/Compliance.md"
+  - "guide/Compliance.zh_CN.md"
 
 permalinks:
   pretty: true
