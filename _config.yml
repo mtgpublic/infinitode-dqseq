@@ -5,6 +5,7 @@ include:
   - "guide/Abbreviation.zh_CN.md"
   - "guide/Compliance.md"
   - "guide/Compliance.zh_CN.md"
-
+  - "guide/Rawdata.md"
+  - "guide/Rawdata.zh_CN.md"
 permalinks:
   pretty: true

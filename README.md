@@ -80,6 +80,7 @@ The sequences are already sorted, and generally, the earlier sequences are the s
 The sequences also include summaries, detailed descriptions, scores, and other information to assist in your sequence selection. If needed, please refer to the extended guide below.  
 
 * [Abbreviation](https://mtgpublic.github.io/infinitode-dqseq/guide/Abbreviation)
+* [Rawdata](https://mtgpublic.github.io/infinitode-dqseq/guide/Rawdata)
 * [Compliance Troubleshooting](https://mtgpublic.github.io/infinitode-dqseq/guide/Compliance)
 
 ## 📝 Roadmap

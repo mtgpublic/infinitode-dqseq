@@ -80,6 +80,7 @@ DQ8核心中的赏金升级会影响可选择奖励。数据中将标注赏金�
 序列同时包含了摘要，详细描述，分数等信息帮助你进行序列的选择，如有需要，请阅读下面的扩展页面。
 
 * [缩写规范](https://mtgpublic.github.io/infinitode-dqseq/guide/Abbreviation.zh_CN)
+* [原始数据规范](https://mtgpublic.github.io/infinitode-dqseq/guide/Rawdata.zh_CN)
 * [合规性疑难解答](https://mtgpublic.github.io/infinitode-dqseq/guide/Compliance.zh_CN)
 
 ## 📝 计划表
