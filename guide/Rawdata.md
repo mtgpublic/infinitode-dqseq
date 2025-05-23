@@ -78,7 +78,7 @@ This sequence indicates:
 - Has power 3 TowersDamage
 - Has power 4 ExtraDamagePerBuff
 - Has power 2 TowersAttackSpeed
-- Has pwower 2 GV_TowersMaxExpLevel
+- Has power 2 GV_TowersMaxExpLevel
 - *May contain additional bonuses*
 
 The summary is not a complete record. It does **not** include bonuses with low or zero scores, nor the stages of when the bonuses were acquired.
@@ -106,7 +106,7 @@ Notably, when obtaining the IncreaseSelectedBonusesPower (POWER+, sometimes refe
 This sequence indicates:
 
 - AllAbilitiesForRandomTower obtained on stage 1  
-- LightningStrikeOnTowerLevelUp 2, 4, and 10  
+- LightningStrikeOnTowerLevelUp on stages 2, 4, and 10  
 - MinedItemsTurnIntoDust obtained on stage 3  
 - GV_TowersMaxExpLevel obtained on stages 5, 8, and 10  
 - ExtraDamagePerBuff obtained on stages 6 and 10  
