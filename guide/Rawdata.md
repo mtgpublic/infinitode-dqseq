@@ -128,7 +128,7 @@ This sequence indicates:
 - AddRandomPlatform obtained on stage 9  
 - IncreaseSelectedBonusesPower obtained on stage 10
 
-## Bounty Identifier
+## Bounty Identifier(Bounty)
 
 **Applies to the seventh column of data.**
 

@@ -11,6 +11,8 @@
 
 **Currently, the data on GitHub has been updated up to August 20, 2025.**
 
+The sequence will currently only be provided in Chinese, and internationalization is not being considered for a considerable period. Internationalization requires a substantial base of in-depth users of infinitode-dqseq, and currently, the project lacks a foundation of non-native Chinese-speaking users. If you are willing to contribute in this regard, feel free to submit suggestions via issues or discuss it in international communities such as the Infinitode Discord.  
+
 ## 📌 Description
 
 Infinitode is a tower defense game developed by The Rainy Cat.
@@ -20,6 +22,8 @@ Daily quest is a gameplay feature within the game where players need to complete
 This repository stores a large number of Top Dailyquest Bonus Sequences to help players complete tasks more easily or consistently secure top positions on the leaderboard.
 
 ## 🔗 Link
+
+Project link: [https://github.com/mtgpublic/infinitode-dqseq](https://github.com/mtgpublic/infinitode-dqseq)
 
 This repository is exclusively published on GitHub and the Infinitode Chinese Community.
 

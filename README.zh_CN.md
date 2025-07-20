@@ -11,6 +11,14 @@
 
 **目前github上的数据更新到2025-08-20。**
 
+目前序列将仅提供中文，且在相当长的一段时间内不考虑国际化。
+
+### 为什么？
+
+国际化需要大量深入使用infinitode-dqseq的用户，而目前该项目缺乏基础。
+
+如你有意愿提供
+
 ## 📌 这是什么？
 
 《无限塔防》是由The Rainy Cat开发的一款塔防游戏。  
@@ -20,6 +28,8 @@
 本仓库存储了大量每日挑战顶尖奖励序列，帮助玩家更轻松完成任务或持续占据排行榜前列。
 
 ## 🔗 链接
+
+项目链接: [https://github.com/mtgpublic/infinitode-dqseq](https://github.com/mtgpublic/infinitode-dqseq)
 
 本仓库仅发布于GitHub及《无限塔防》中文社区。
 
