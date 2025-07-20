@@ -5,7 +5,7 @@
 <h1 align="center" style="font-weight: bold;">infinitode每日序列 💻</h1>
 <p align="center" style="font-weight: bold;">Infinitode顶级每日序列数据库</p>
 
-## 📋︎ 公告
+## 📋︎ 公告 2025-07-20
 
 **由于更高效的技术和实现脚本出现，以及关于公平性与反作弊声明的逐步完善，infinitode-dqseq恢复更新，数据由Modifitode >=1.6.1进行驱动。**
 
