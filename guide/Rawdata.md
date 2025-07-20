@@ -9,9 +9,15 @@
 
 Refers to the specification for describing raw data.
 
-## Sequence
+## Row number(0)
 
 **Applies to the first column of data.**
+
+For the convenience of sequence distribution and display, an additional column is provided as a row number.
+
+## Sequence(Index)
+
+**Applies to the second column of data.**
 
 Use Arabic numerals to describe the sequence, with a space between every five selections. Dense Marker first created this description method, which was then used for community communication sequences.
 
@@ -41,9 +47,17 @@ In the provided sequence, assuming there is no MoreBonusVariantsNextTime, the se
   - The ninth selection is 3 (third bonus).
   - The tenth selection is 2 (second bonus).
 
-## Sequence Score
+## Category Optimal Identifier(\*)
 
-**Applies to the second column of data.**
+**Applies to the third column of data.**
+
+If the primary reward of one sequence is inferior to that of another sequence, then this sequence does not qualify as category optimal.
+
+It is marked with an asterisk. In a sense, the category optimal identifier can effectively represent the optimal sequence within a certain category.
+
+## Sequence Score(Score)
+
+**Applies to the forth column of data.**
 
 Uses the sequence scoring model invented by player 249.
 
@@ -51,9 +65,9 @@ The score model assumes that every 100 score points double the damage output. In
 
 For a sequence of bonuses, the total score is the sum of all selected bonuses’ scores.
 
-## Summary
+## Summary(Code)
 
-**Applies to the third column of data.**
+**Applies to the fifth column of data.**
 
 Follows the abbreviation specification.
 
@@ -85,9 +99,9 @@ The summary is not a complete record. It does **not** include bonuses with low o
 
 **Note:** Due to the nature of raw data generation, the summary of the same sequence may vary slightly depending on the generation environment. Typically, only bonuses scoring at or above **3% of the highest sequence score** will be included as main bonuses.
 
-## Detailed Description
+## Detailed Description(Var)
 
-**Applies to the fourth column of data.**
+**Applies to the sixth column of data.**
 
 Follows the abbreviation specification.
 
@@ -114,15 +128,9 @@ This sequence indicates:
 - AddRandomPlatform obtained on stage 9  
 - IncreaseSelectedBonusesPower obtained on stage 10
 
-## Tags
-
-**Applies to the fifth column of data.**
-
-**Deprecated.** This field is retained only for compatibility with legacy data and has now been replaced by the Detailed Description.
-
 ## Bounty Identifier
 
-**Applies to the sixth column of data.**
+**Applies to the seventh column of data.**
 
 **Appears only in DQ8.**
 

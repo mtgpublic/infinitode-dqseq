@@ -19,6 +19,12 @@ This repository is exclusively published on GitHub and the Infinitode Chinese Co
 
 The qq group number of Infinitode Milk Tea Group(Infinitode Chinese Community) is 1020322961。
 
+## 📋︎ Announcement
+
+Due to the emergence of more efficient technologies and implementation scripts, as well as the progressive refinement of fairness and anti-cheat declarations, the infinitode-dqseq project has resumed updates. The data is now powered by Modifitode version >=1.6.1.
+
+Currently, the data on GitHub has been updated up to August 6, 2025.
+
 ## 🚀 Getting Started
 
 Using the sequence is very simple. Before that, however, make sure you have a good understanding of infinitode daily quests and are clear on the following points.
@@ -71,7 +77,7 @@ This means you need to complete the previous stage's selection before choosing b
 
 If you've gone through the "Quick Start" section, you'll find it easy to grasp how to use the sequences.  
 
-All released data is stored in the `archive` directory in xlsx format, where you can locate sequence data for all stages of the day by date.  
+All released data is stored in the `data` directory in txt format, where you can locate sequence data for all stages of the day by date.  
 
 The sequences are already sorted, and generally, the earlier sequences are the stronger ones.  
 
@@ -83,12 +89,13 @@ The sequences also include summaries, detailed descriptions, scores, and other i
 * [Rawdata](https://mtgpublic.github.io/infinitode-dqseq/guide/Rawdata)
 * [Compliance Troubleshooting](https://mtgpublic.github.io/infinitode-dqseq/guide/Compliance)
 
-## 📝 Roadmap
+## 📚️ Data Generation Specifications  
 
-- [ ] Support Json data
-- [x] Data Multi-language Support
-  - [x] Chinese
-  - [x] English
+The data in this repository is generated using Modifitode version >=1.6.1.  
+
+Parameter list:  
+* scoreRecord = 200  
+* scoreThreshold = 30  
 
 ## 📫 Contact
 

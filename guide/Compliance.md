@@ -31,6 +31,8 @@ Sequences are generated using dev mode scripts, which do not send data to the se
 
 ### Discord Rules
 
+**According to the latest Discord community guidelines, DQseq falls under the category of content that Discord tolerates, which means that even though the current DQseq is driven by Modifitode, its content can still be posted on Discord.**
+
 This refers specifically to **Discord A10 - Cheating in-game / encouragement of cheating** rules, which ensures that you can share sequences and project links on Discord without risking being banned under Discord’s regulations.
 
 **Using sequences is not considered cheating**, and it does not violate Discord’s additional terms.
@@ -45,6 +47,16 @@ Under the extended interpretation of Discord A10 by official rules, the followin
 
 ### Chinese Community Guidelines
 
-The active members of the Chinese community are primarily MTG members, and some of the administrators are also part of MTG.
+**Due to the current fragmentation within the Chinese community, please independently assess the risks of posting sequences in non-MTG Chinese communities.**
 
-Although there is no specific applicable text, **we assure you that you will not face any obstacles from community rules for using sequences. On the contrary, we encourage the use of sequences and welcome contributions to this project.**
+The active members of the Chinese community are primarily MTG members, and MTG members are present among the administrators. You can review MTG's stance on sequence generation by reading their Fair Play and Anti-Cheating Statement in the MTG community.
+
+
+
+
+
+
+
+
+
+
