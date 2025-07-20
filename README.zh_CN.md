@@ -5,6 +5,12 @@
 <h1 align="center" style="font-weight: bold;">infinitode每日序列 💻</h1>
 <p align="center" style="font-weight: bold;">Infinitode顶级每日序列数据库</p>
 
+## 📋︎ 公告
+
+**由于更高效的技术和实现脚本出现，以及关于公平性与反作弊声明的逐步完善，infinitode-dqseq恢复更新，数据由Modifitode >=1.6.1进行驱动。**
+
+**目前github上的数据更新到2025-08-20。**
+
 ## 📌 这是什么？
 
 《无限塔防》是由The Rainy Cat开发的一款塔防游戏。  
@@ -18,12 +24,6 @@
 本仓库仅发布于GitHub及《无限塔防》中文社区。
 
 Infinitode2喝奶茶群QQ群号：1020322961  
-
-## 📋︎ 公告
-
-由于更高效的技术和实现脚本出现，以及关于公平性与反作弊声明的逐步完善，infinitode-dqseq恢复更新，数据由Modifitode >=1.6.1进行驱动。
-
-目前github上的数据更新到2025-08-06。
 
 ## 🚀 快速开始
 

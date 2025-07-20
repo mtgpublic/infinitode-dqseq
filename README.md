@@ -5,6 +5,12 @@
 <h1 align="center" style="font-weight: bold;">infinitode-dqseq 💻</h1>
 <p align="center" style="font-weight: bold;">A Library/Database of Infinitode Top Dailyquest Bonus Sequence</p>
 
+## 📋︎ Announcement 2025-07-20
+
+**Due to the emergence of more efficient technologies and implementation scripts, as well as the progressive refinement of fairness and anti-cheat declarations, the infinitode-dqseq project has resumed updates. The data is now powered by Modifitode version >=1.6.1.**
+
+**Currently, the data on GitHub has been updated up to August 20, 2025.**
+
 ## 📌 Description
 
 Infinitode is a tower defense game developed by The Rainy Cat.
@@ -18,12 +24,6 @@ This repository stores a large number of Top Dailyquest Bonus Sequences to help 
 This repository is exclusively published on GitHub and the Infinitode Chinese Community.
 
 The qq group number of Infinitode Milk Tea Group(Infinitode Chinese Community) is 1020322961。
-
-## 📋︎ Announcement
-
-Due to the emergence of more efficient technologies and implementation scripts, as well as the progressive refinement of fairness and anti-cheat declarations, the infinitode-dqseq project has resumed updates. The data is now powered by Modifitode version >=1.6.1.
-
-Currently, the data on GitHub has been updated up to August 6, 2025.
 
 ## 🚀 Getting Started
 
