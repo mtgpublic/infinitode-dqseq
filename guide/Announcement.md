@@ -9,6 +9,16 @@
 
 Contains historical announcement records.  
 
+## 2025-09-10
+
+After a long time, the current sequence will be driven by SeqUniverse, which is written in C++ and is more efficient compared to the original sequence generation method.  
+
+The license has also been replaced to facilitate better distribution of the project.  
+
+The most significant change is that **according to the license, when participating in game competitions, if you use this project, you must declare that you have used it.** Although this is just a gentleman's agreement, MTG has its own methods to determine whether an account is competing fairly.  
+
+Additionally, the project's license has been updated to better align with Infinitode's usage.
+
 ## 2025-08-02
 
 Modifitode 1.6.2 has updated its data specifications. From this version onward, the data will be fully compliant with dqseq's standards. The MTG community is currently developing a C++-based sequence traversal project. If progress goes smoothly, dqseq's data source will primarily be provided by this new project.

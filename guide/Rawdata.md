@@ -65,7 +65,15 @@ The score model assumes that every 100 score points double the damage output. In
 
 For a sequence of bonuses, the total score is the sum of all selected bonuses’ scores.
 
-## Summary(Code)
+### Practical Computation
+
+In practical computations, we need to consider the following scenarios:
+
+- For certain negative-scoring bonuses, we can choose to omit them to mitigate their impact.
+- Employ multiple weighting calculation methods to align with various strategies.
+- Prioritize search efficiency while partially compromising the accuracy of score calculations.
+
+## Summary
 
 **Applies to the fifth column of data.**
 
@@ -85,6 +93,8 @@ Typically, it consists of cores information and main bonus information:
 ALPHADELTA3DMG4VULN2ASPD2LVL
 ```
 
+*Here, English is used, but the actual data is in Chinese. Please refer to the Abbreviation page for cross-referencing.*
+
 This sequence indicates:
 
 - Has ALPHA Core  
@@ -99,7 +109,7 @@ The summary is not a complete record. It does **not** include bonuses with low o
 
 **Note:** Due to the nature of raw data generation, the summary of the same sequence may vary slightly depending on the generation environment. Typically, only bonuses scoring at or above **3% of the highest sequence score** will be included as main bonuses.
 
-## Detailed Description(Var)
+## Detailed Description(Detail)
 
 **Applies to the sixth column of data.**
 
@@ -116,6 +126,8 @@ Notably, when obtaining the IncreaseSelectedBonusesPower (POWER+, sometimes refe
 ```
 1ALL_ABI24aLIT3DUST58aLVL6aVULN7RND_CORE9RND_PLTaPOWER+
 ```
+
+*Here, English is used, but the actual data is in Chinese. Please refer to the Abbreviation page for cross-referencing.*
 
 This sequence indicates:
 

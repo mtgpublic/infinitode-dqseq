@@ -5,13 +5,15 @@
 <h1 align="center" style="font-weight: bold;">infinitode-dqseq 💻</h1>
 <p align="center" style="font-weight: bold;">A Library/Database of Infinitode Top Dailyquest Bonus Sequence</p>
 
-## 📋︎ Announcement 2025-08-02
+## 📋︎ Announcement 2025-09-10
 
-Modifitode 1.6.2 has updated its data specifications. From this version onward, the data will be fully compliant with dqseq's standards. The MTG community is currently developing a C++-based sequence traversal project. If progress goes smoothly, dqseq's data source will primarily be provided by this new project.
+After a long wait, the latest sequences have been released. The repository includes the best sequences from the past three years since Season 3, generated using the community's newly developed SeqUniverse, a C++ sequence generator.  
 
-The MTG community has recently observed frequent occurrences of scores using the Venom FS strategy. dqseq currently has no plans to modify sequence weighting, which means if you wish to employ Venom FS strategies, you'll need to locate sequences yourself.
+This update is part of long-term support. The scoring model for the sequences has been refined through extensive contributions from community players, ensuring the accuracy of the scores and the practicality of the sequences. Starting from this release, the fairness of the daily challenges will be guaranteed at a minimum level. If you discover this repository, you’ll be on the same playing field as other DQ competitors, easily placing in the top 3%.  
 
-**Since the game's developer Therainycat has no intention of fixing either the Venom FS strategy exploit or the DQ leaderboard submission exploit, this means the fairness of the DQ leaderboard will be significantly compromised. Please view DQ leaderboard competition with discretion and be prepared for others possessing unfair advantages that cannot be matched through normal gameplay.** While dqseq strives to uphold DQ fairness, MTG has stated it can do nothing about this situation.
+You can directly access the repository to download all the data or simply use the link to retrieve the data corresponding to today’s DQ challenge. If you're part of the MilkTea Group community, you can opt for the bot service or the email delivery service.  
+
+Additionally, the project's license has been updated to better align with Infinitode's usage.
 
 ## 📌 Description
 
@@ -92,15 +94,11 @@ The sequences also include summaries, detailed descriptions, scores, and other i
 * [Abbreviation](https://mtgpublic.github.io/infinitode-dqseq/guide/Abbreviation)
 * [Rawdata](https://mtgpublic.github.io/infinitode-dqseq/guide/Rawdata)
 * [Compliance Troubleshooting](https://mtgpublic.github.io/infinitode-dqseq/guide/Compliance)
-* [往期公告](https://mtgpublic.github.io/infinitode-dqseq/guide/Announcement)
+* [Announcement Archive](https://mtgpublic.github.io/infinitode-dqseq/guide/Announcement)
 
 ## 📚️ Data Generation Specifications  
 
-The data in this repository is generated using Modifitode version >=1.6.1.  
-
-Parameter list:  
-* scoreRecord = 200  
-* scoreThreshold = 30  
+The data in this repository is generated using SeqUniverse-20250909.  
 
 ## 📫 Contact
 
@@ -114,4 +112,19 @@ Project link: [https://github.com/mtgpublic/infinitode-dqseq](https://github.com
 
 ## 📜 Lisense
 
-<a href="https://github.com/mtgpublic/infinitode-dqseq">infinitode-dqseq</a> © 2025 by <a href="https://github.com/mtgpublic">mtgpublic</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+Milk Tea Group Infinitode Modding Open Source License
+
+This project is licensed under a modified version of the Apache License 2.0, with the following additional conditions:
+
+Usage for Infinitode Modding & Game Support
+You may use this project for modding the official Infinitode game or providing related technical support, provided that:
+1. Competitive Online Play: If used in competitive online play of Infinitode, you must explicitly disclose that this project was utilized for such purposes.
+2. No Cheating: This project shall not be used to create cheats for Infinitode or to facilitate any form of gameplay manipulation.
+
+Contributor Terms
+By contributing, you agree that:
+1.The project maintainers may modify this license to be more permissive or restrictive as deemed necessary.
+
+Apart from the specific conditions mentioned above, all other rights and restrictions follow the Apache License 2.0. Detailed information about the Apache License 2.0 can be found at http://www.apache.org/licenses/LICENSE-2.0.
+
+2025 Milk Tea Group Community(mtgpublic@163.com)

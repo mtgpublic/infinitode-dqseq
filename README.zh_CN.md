@@ -5,13 +5,15 @@
 <h1 align="center" style="font-weight: bold;">infinitode每日序列 💻</h1>
 <p align="center" style="font-weight: bold;">Infinitode顶级每日序列数据库</p>
 
-## 📋︎ 公告 2025-08-02
+## 📋︎ 公告 2025-09-10
 
-Modifitode 1.6.2更新了数据规范，在此之后，数据将与dqseq的规范完全一致。目前MTG社区正在开发基于C++的序列遍历项目，若项目进展顺利，dqseq的数据源将主要由新项目提供。
+时隔已久，最新的序列被公布，仓库包括了第三赛季以来三年的最佳序列，采用社区最新研发的SeqUniverse，一个C++的序列生成器来生成序列。
 
-MTG社区最近发现使用连锁策略的成绩频繁出现，dqseq目前不会更改序列权重，这意味着如果你需要进行连锁策略，你需要自行寻找序列。
+此次更新属于长期支持，序列的评分模型经过大量社区玩家的建设，基本保证了分数的准确性和序列的适用性。自此次发布之后，每日挑战的公平性将得到最低保障，如果你发现了此仓库，你将和其他DQ竞争对手处于同一水平，并轻松进入前3%。
 
-**由于游戏作者Therainycat无意修复连锁策略漏洞和DQ排行榜分数提交漏洞，这意味着目前DQ排行榜的公平性将受到极大影响。请合理看待DQ排行榜竞争，做好他人拥有无法通过正常游戏弥补的不公平优势的准备。**虽然dqseq尽力在DQ公平性上做出贡献，但对此MTG表示无能为力。
+你可以直接进入仓库下载全部数据，或仅仅通过链接访问今日DQ对应的数据，如果你在喝奶茶群社区，你可以选择使用bot服务或者邮件发送服务。
+
+此外，项目的许可证也进行了更新，以更好的适配infinitode的使用。
 
 ## 📌 这是什么？
 
@@ -92,14 +94,11 @@ DQ8核心中的赏金升级会影响可选择奖励。数据中将标注赏金�
 * [缩写规范](https://mtgpublic.github.io/infinitode-dqseq/guide/Abbreviation.zh_CN)
 * [原始数据规范](https://mtgpublic.github.io/infinitode-dqseq/guide/Rawdata.zh_CN)
 * [合规性疑难解答](https://mtgpublic.github.io/infinitode-dqseq/guide/Compliance.zh_CN)
+* [往期公告](https://mtgpublic.github.io/infinitode-dqseq/guide/Announcement.zh_CN)
 
 ## 📚️ 数据的生成规范
 
-当前仓库的数据使用 Modifitode >=1.6.1 进行生成。
-
-参数列表：
-* scoreRecord = 200
-* scoreThreshhold = 30
+当前仓库的数据使用 SeqUniverse-20250909 进行生成。
 
 ## 📫 联系
 
@@ -113,4 +112,19 @@ DQ8核心中的赏金升级会影响可选择奖励。数据中将标注赏金�
 
 ## 📜 许可证
 
-<a href="https://github.com/mtgpublic/infinitode-dqseq">infinitode-dqseq</a> © 2025 by <a href="https://github.com/mtgpublic">mtgpublic</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+Milk Tea Group Infinitode Modding Open Source License
+
+This project is licensed under a modified version of the Apache License 2.0, with the following additional conditions:
+
+Usage for Infinitode Modding & Game Support
+You may use this project for modding the official Infinitode game or providing related technical support, provided that:
+1. Competitive Online Play: If used in competitive online play of Infinitode, you must explicitly disclose that this project was utilized for such purposes.
+2. No Cheating: This project shall not be used to create cheats for Infinitode or to facilitate any form of gameplay manipulation.
+
+Contributor Terms
+By contributing, you agree that:
+1.The project maintainers may modify this license to be more permissive or restrictive as deemed necessary.
+
+Apart from the specific conditions mentioned above, all other rights and restrictions follow the Apache License 2.0. Detailed information about the Apache License 2.0 can be found at http://www.apache.org/licenses/LICENSE-2.0.
+
+2025 Milk Tea Group Community(mtgpublic@163.com)
