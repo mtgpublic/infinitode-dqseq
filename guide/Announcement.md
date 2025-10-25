@@ -11,11 +11,11 @@ Contains historical announcement records.
 
 ## 2025-09-10
 
-After a long time, the current sequence will be driven by SeqUniverse, which is written in C++ and is more efficient compared to the original sequence generation method.  
+After a long wait, the latest sequences have been released. The repository includes the best sequences from the past three years since Season 3, generated using the community's newly developed SeqUniverse, a C++ sequence generator.  
 
-The license has also been replaced to facilitate better distribution of the project.  
+This update is part of long-term support. The scoring model for the sequences has been refined through extensive contributions from community players, ensuring the accuracy of the scores and the practicality of the sequences. Starting from this release, the fairness of the daily challenges will be guaranteed at a minimum level. If you discover this repository, you’ll be on the same playing field as other DQ competitors, easily placing in the top 3%.  
 
-The most significant change is that **according to the license, when participating in game competitions, if you use this project, you must declare that you have used it.** Although this is just a gentleman's agreement, MTG has its own methods to determine whether an account is competing fairly.  
+You can directly access the repository to download all the data or simply use the link to retrieve the data corresponding to today’s DQ challenge. If you're part of the MilkTea Group community, you can opt for the bot service or the email delivery service.  
 
 Additionally, the project's license has been updated to better align with Infinitode's usage.
 

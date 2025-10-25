@@ -33,11 +33,11 @@ Example:
 33513 23432
 ```
 
-In the provided sequence, assuming there is no MoreBonusVariantsNextTime, the selections are:
-
+In the provided sequence, assuming there is no MoreBonusVariantsNextTime, there are 3 choices per stage and the selections are:
 - First Group (3, 3, 5, 1, 3):
-  - The first two selections are 3 (third bonus).
-  - The third selection is 5 (first bonus after a reroll).
+  - The first selection are 3 (third bonus).
+  - The second selection are 3 (third bonus).
+  - The third selection is 5 (second bonus after a reroll).
   - The fourth selection is 1 (first bonus).
   - The fifth selection is 3 (third bonus).
 - Second Group (2, 3, 4, 3, 2):
@@ -47,11 +47,26 @@ In the provided sequence, assuming there is no MoreBonusVariantsNextTime, the se
   - The ninth selection is 3 (third bonus).
   - The tenth selection is 2 (second bonus).
 
+Assuming you select MoreBonusVariantsNextTime on stage 2, after this stage there are 4 choices per stage and the selections are:
+- First Group (3, 3, 5, 1, 3):
+  - The first selection are 3 (third bonus). There are 3 choices in this stage.
+  - The second selection are 3 (third bonus). There are 3 choices in this stage and you select MoreBonusVariantsNextTime.
+  - The third selection is 5 (first bonus after a reroll). Now there are 4 choices in the rest stages.
+  - The fourth selection is 1 (first bonus).
+  - The fifth selection is 3 (third bonus).
+- Second Group (2, 3, 4, 3, 2):
+  - The sixth selection is 2 (second bonus).
+  - The seventh selection is 3 (third bonus).
+  - The eighth selection is 4 (fourth bonus).
+  - The ninth selection is 3 (third bonus).
+  - The tenth selection is 2 (second bonus).
 ## Category Optimal Identifier(\*)
 
 **Applies to the third column of data.**
 
-If the primary reward of one sequence is inferior to that of another sequence, then this sequence does not qualify as category optimal.
+We classify sequences based on their highest-scoring bonus as the primary bonus. Sequences sharing identical primary bonuses belong to the same sequence class.
+
+Within any given class: A sequence cannot be considered optimally superior if its primary bonus is strictly inferior to another sequence's primary bonus.
 
 It is marked with an asterisk. In a sense, the category optimal identifier can effectively represent the optimal sequence within a certain category.
 
@@ -148,4 +163,8 @@ This sequence indicates:
 
 Bounty upgrades in the core of DQ8 will affect your Bonus. The data will indicate the previous stage of the bounty to assist you in upgrading the core at the right time.
 
-This means you need to complete the previous stage's selection before choosing bounty, and dont't trigger the next stage's selection (fulfilling the enemy kill conditions for the next stage's selection). 
+This implies:
+- Must complete the previous stage's selection (including rerolls) before upgrading bounty
+- Do NOT trigger the next stage's selection conditions (i.e., avoid meeting enemy kill requirements for subsequent stages)
+
+Mechanically speaking, bounty affect all "already generated" sequences. This means if reward selection occurs after bounty upgrade (typically from meeting kill requirements or rerolls), those rewards will be bounty-affected.

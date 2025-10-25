@@ -5,15 +5,25 @@
 <h1 align="center" style="font-weight: bold;">infinitode-dqseq 💻</h1>
 <p align="center" style="font-weight: bold;">A Library/Database of Infinitode Top Dailyquest Bonus Sequence</p>
 
-## 📋︎ Announcement 2025-09-10
+## 📋︎ Announcement 2025-10-25
 
-After a long wait, the latest sequences have been released. The repository includes the best sequences from the past three years since Season 3, generated using the community's newly developed SeqUniverse, a C++ sequence generator.  
+With Sequniverse receiving an update, dqseq has been synchronized to better provide optimal sequences.
 
-This update is part of long-term support. The scoring model for the sequences has been refined through extensive contributions from community players, ensuring the accuracy of the scores and the practicality of the sequences. Starting from this release, the fairness of the daily challenges will be guaranteed at a minimum level. If you discover this repository, you’ll be on the same playing field as other DQ competitors, easily placing in the top 3%.  
+Specific adjustments in the scoring model for v20251025 compared to v20250909 include:
 
-You can directly access the repository to download all the data or simply use the link to retrieve the data corresponding to today’s DQ challenge. If you're part of the MilkTea Group community, you can opt for the bot service or the email delivery service.  
+1. DQ3 Modifications:
+   - Increased weight for DebuffsLastLonger
+   - Decreased weight for TowersAttackSpeed
+   - Significantly reduced weight for LightningStrikeOnTowerLevelUp
 
-Additionally, the project's license has been updated to better align with Infinitode's usage.
+2. DQ9 Optimizations:
+   - Improved weight calculation logic for AddAllAbilityCharges and IncreasedTowerToEnemyEfficiency_SPLASH_ARMORED
+   - When other bonus score totals are low, AddAllAbilityChargess and IncreasedTowerToEnemyEfficiency_SPLASH_ARMORED will receive proportionally lower weights
+
+3. Global Adjustment:
+   - NukeOnBonusStage weight calculations are no longer restricted to Stage 10 in most levels
+
+Additionally, we've implemented bug fixes and enhanced example sets for the Dense Marker Sequence Standard to improve player comprehension.
 
 ## 📌 Description
 
@@ -52,16 +62,31 @@ Example:
 33513 23432
 ```
 
-In the provided sequence, assuming there is no MoreBonusVariantsNextTime, the selections are:
+In the provided sequence, assuming there is no MoreBonusVariantsNextTime, there are 3 choices per stage and the selections are:
 - First Group (3, 3, 5, 1, 3):
-  - The first two selections are 3 (third bonus).
-  - The third selection is 5 (first bonus after a reroll).
+  - The first selection are 3 (third bonus).
+  - The second selection are 3 (third bonus).
+  - The third selection is 5 (second bonus after a reroll).
   - The fourth selection is 1 (first bonus).
   - The fifth selection is 3 (third bonus).
 - Second Group (2, 3, 4, 3, 2):
   - The sixth selection is 2 (second bonus).
   - The seventh selection is 3 (third bonus).
   - The eighth selection is 4 (first bonus after a reroll).
+  - The ninth selection is 3 (third bonus).
+  - The tenth selection is 2 (second bonus).
+
+Assuming you select MoreBonusVariantsNextTime on stage 2, after this stage there are 4 choices per stage and the selections are:
+- First Group (3, 3, 5, 1, 3):
+  - The first selection are 3 (third bonus). There are 3 choices in this stage.
+  - The second selection are 3 (third bonus). There are 3 choices in this stage and you select MoreBonusVariantsNextTime.
+  - The third selection is 5 (first bonus after a reroll). Now there are 4 choices in the rest stages.
+  - The fourth selection is 1 (first bonus).
+  - The fifth selection is 3 (third bonus).
+- Second Group (2, 3, 4, 3, 2):
+  - The sixth selection is 2 (second bonus).
+  - The seventh selection is 3 (third bonus).
+  - The eighth selection is 4 (fourth bonus).
   - The ninth selection is 3 (third bonus).
   - The tenth selection is 2 (second bonus).
 
@@ -98,7 +123,7 @@ The sequences also include summaries, detailed descriptions, scores, and other i
 
 ## 📚️ Data Generation Specifications  
 
-The data in this repository is generated using SeqUniverse-20250909.  
+The data in this repository is generated using SeqUniverse-20251025.  
 
 ## 📫 Contact
 
