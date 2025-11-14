@@ -17,8 +17,9 @@ Based on community feedback, the following adjustments have been made:
 - TowersAttackSpeed: 15, 12, 12  
 - CriticalDamage: 12, 6, 6  
 - ExtraDamagePerBuff: 18, 18, 18, 18, 18  
-- DebuffsLastLonger: 6, 4, 4  
-The numerical values represent the percentage contribution to damage per tier. For example, 15 is equivalent to *115% additional damage. In the case of TowersAttackSpeed, the second and third tiers translate to *127% and *139% additional damage respectively.
+- DebuffsLastLonger: 6, 4, 4 
+
+The numerical values represent the percentage contribution to damage per tier. For example, 15 is equivalent to \*115% additional damage. In the case of TowersAttackSpeed, the second and third tiers translate to \*127% and \*139% additional damage respectively.
 
 Due to the complexity of Lightning Ball ability and MDPS influence, there is still no effective solution for model distortion caused by Lightning Ball ability. Suggestions for improving DQ9 bonus evaluations are welcome.  
 
