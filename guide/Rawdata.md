@@ -60,6 +60,19 @@ Assuming you select MoreBonusVariantsNextTime on stage 2, after this stage there
   - The eighth selection is 4 (fourth bonus).
   - The ninth selection is 3 (third bonus).
   - The tenth selection is 2 (second bonus).
+
+## Bounty Identifier(Bounty)
+
+**This is an additional column that appears only in DQ8.**
+
+Bounty upgrades in the core of DQ8 will affect your Bonus. The data will indicate the previous stage of the bounty to assist you in upgrading the core at the right time.
+
+This implies:
+- Must complete the previous stage's selection (including rerolls) before upgrading bounty
+- Do NOT trigger the next stage's selection conditions (i.e., avoid meeting enemy kill requirements for subsequent stages)
+
+Mechanically speaking, bounty affect all "already generated" sequences. This means if reward selection occurs after bounty upgrade (typically from meeting kill requirements or rerolls), those rewards will be bounty-affected.
+
 ## Category Optimal Identifier(\*)
 
 **Applies to the third column of data.**
@@ -154,17 +167,3 @@ This sequence indicates:
 - DELTA Core obtained on stage 7  
 - AddRandomPlatform obtained on stage 9  
 - IncreaseSelectedBonusesPower obtained on stage 10
-
-## Bounty Identifier(Bounty)
-
-**Applies to the seventh column of data.**
-
-**Appears only in DQ8.**
-
-Bounty upgrades in the core of DQ8 will affect your Bonus. The data will indicate the previous stage of the bounty to assist you in upgrading the core at the right time.
-
-This implies:
-- Must complete the previous stage's selection (including rerolls) before upgrading bounty
-- Do NOT trigger the next stage's selection conditions (i.e., avoid meeting enemy kill requirements for subsequent stages)
-
-Mechanically speaking, bounty affect all "already generated" sequences. This means if reward selection occurs after bounty upgrade (typically from meeting kill requirements or rerolls), those rewards will be bounty-affected.

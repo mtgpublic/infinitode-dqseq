@@ -9,6 +9,26 @@
 
 Contains historical announcement records.  
 
+## 2025-11-02
+
+With Sequniverse receiving an update, dqseq has been synchronized to better provide optimal sequences.
+
+Specific adjustments in the scoring model for v20251025 compared to v20250909 include:
+
+1. DQ3 Modifications:
+   - Increased weight for DebuffsLastLonger
+   - Decreased weight for TowersAttackSpeed
+   - Significantly reduced weight for LightningStrikeOnTowerLevelUp
+
+2. DQ9 Optimizations:
+   - Improved weight calculation logic for AddAllAbilityCharges and IncreasedTowerToEnemyEfficiency_SPLASH_ARMORED
+   - When other bonus score totals are low, AddAllAbilityChargess and IncreasedTowerToEnemyEfficiency_SPLASH_ARMORED will receive proportionally lower weights
+
+3. Global Adjustment:
+   - NukeOnBonusStage weight calculations are no longer restricted to Stage 10 in most levels
+
+Additionally, we've implemented bug fixes and enhanced example sets for the Dense Marker Sequence Standard to improve player comprehension.
+
 ## 2025-09-10
 
 After a long wait, the latest sequences have been released. The repository includes the best sequences from the past three years since Season 3, generated using the community's newly developed SeqUniverse, a C++ sequence generator.  

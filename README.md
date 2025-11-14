@@ -5,25 +5,22 @@
 <h1 align="center" style="font-weight: bold;">infinitode-dqseq 💻</h1>
 <p align="center" style="font-weight: bold;">A Library/Database of Infinitode Top Dailyquest Bonus Sequence</p>
 
-## 📋︎ Announcement 2025-10-25
+## 📋︎ Announcement 2025-11-14
 
-With Sequniverse receiving an update, dqseq has been synchronized to better provide optimal sequences.
+This update is a standalone release for dqseq. From now on, the data source for dqseq will become a branch of sequniverse.  
 
-Specific adjustments in the scoring model for v20251025 compared to v20250909 include:
+### Bounty Identifier for DQ8  
+For DQ8’s bounty identifier, dqseq has repositioned the bounty identifier column next to the Index to make reward selection more convenient for DQ8.  
 
-1. DQ3 Modifications:
-   - Increased weight for DebuffsLastLonger
-   - Decreased weight for TowersAttackSpeed
-   - Significantly reduced weight for LightningStrikeOnTowerLevelUp
+### Score Representation for DQ9  
+Based on community feedback, the following adjustments have been made:  
+- TowersAttackSpeed: 15, 12, 12  
+- CriticalDamage: 12, 6, 6  
+- ExtraDamagePerBuff: 18, 18, 18, 18, 18  
+- DebuffsLastLonger: 6, 4, 4  
+The numerical values represent the percentage contribution to damage per tier. For example, 15 is equivalent to *115% additional damage. In the case of TowersAttackSpeed, the second and third tiers translate to *127% and *139% additional damage respectively.
 
-2. DQ9 Optimizations:
-   - Improved weight calculation logic for AddAllAbilityCharges and IncreasedTowerToEnemyEfficiency_SPLASH_ARMORED
-   - When other bonus score totals are low, AddAllAbilityChargess and IncreasedTowerToEnemyEfficiency_SPLASH_ARMORED will receive proportionally lower weights
-
-3. Global Adjustment:
-   - NukeOnBonusStage weight calculations are no longer restricted to Stage 10 in most levels
-
-Additionally, we've implemented bug fixes and enhanced example sets for the Dense Marker Sequence Standard to improve player comprehension.
+Due to the complexity of Lightning Ball ability and MDPS influence, there is still no effective solution for model distortion caused by Lightning Ball ability. Suggestions for improving DQ9 bonus evaluations are welcome.  
 
 ## 📌 Description
 
@@ -102,7 +99,11 @@ For a sequence of bonuses, the total score is the sum of all selected bonuses’
 
 Bounty upgrades in the core of DQ8 will affect your Bonus. The data will indicate the previous stage of the bounty to assist you in upgrading the core at the right time.
 
-This means you need to complete the previous stage's selection before choosing bounty, and dont't trigger the next stage's selection (fulfilling the enemy kill conditions for the next stage's selection). 
+This implies:
+- Must complete the previous stage's selection (including rerolls) before upgrading bounty
+- Do NOT trigger the next stage's selection conditions (i.e., avoid meeting enemy kill requirements for subsequent stages)
+
+Mechanically speaking, bounty affect all "already generated" sequences. This means if reward selection occurs after bounty upgrade (typically from meeting kill requirements or rerolls), those rewards will be bounty-affected.
 
 ## 🎮 Usage  
 
@@ -123,7 +124,7 @@ The sequences also include summaries, detailed descriptions, scores, and other i
 
 ## 📚️ Data Generation Specifications  
 
-The data in this repository is generated using SeqUniverse-20251025.  
+The data in this repository is generated using SeqUniverse-dqseq-20251114.  
 
 ## 📫 Contact
 
