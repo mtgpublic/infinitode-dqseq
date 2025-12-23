@@ -5,23 +5,11 @@
 <h1 align="center" style="font-weight: bold;">infinitode-dqseq 💻</h1>
 <p align="center" style="font-weight: bold;">A Library/Database of Infinitode Top Dailyquest Bonus Sequence</p>
 
-## 📋︎ Announcement 2025-11-14
+## 📋︎ Announcement 2025-12-23
 
-This update is a standalone release for dqseq. From now on, the data source for dqseq will become a branch of sequniverse.  
+**In the latest dqseq issue report regarding the bonus effect of Lightning Ball Charge on subsequent sequences, the problem has now been fixed. This is the new version provided.  **
 
-### Bounty Identifier for DQ8  
-For DQ8’s bounty identifier, dqseq has repositioned the bounty identifier column next to the Index to make reward selection more convenient for DQ8.  
-
-### Score Representation for DQ9  
-Based on community feedback, the following adjustments have been made:  
-- TowersAttackSpeed: 15, 12, 12  
-- CriticalDamage: 12, 6, 6  
-- ExtraDamagePerBuff: 18, 18, 18, 18, 18  
-- DebuffsLastLonger: 6, 4, 4 
-
-The numerical values represent the percentage contribution to damage per tier. For example, 15 is equivalent to \*115% additional damage. In the case of TowersAttackSpeed, the second and third tiers translate to \*127% and \*139% additional damage respectively.
-
-Due to the complexity of Lightning Ball ability and MDPS influence, there is still no effective solution for model distortion caused by Lightning Ball ability. Suggestions for improving DQ9 bonus evaluations are welcome.  
+Thanks to MTG member Nodetail and Infinitode Discord member Sela(ERKA) for their contributions in reporting. 
 
 ## 📌 Description
 
