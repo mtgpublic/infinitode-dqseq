@@ -7,7 +7,7 @@
 
 ## 📋︎ Announcement 2025-12-23
 
-**In the latest dqseq issue report regarding the bonus effect of Lightning Ball Charge on subsequent sequences, the problem has now been fixed. This is the new version provided.  **
+**In the latest dqseq issue report regarding the bonus effect of Lightning Ball Charge on subsequent sequences, the problem has now been fixed. This is the new version provided**.  
 
 Thanks to MTG member Nodetail and Infinitode Discord member Sela(ERKA) for their contributions in reporting. 
 
