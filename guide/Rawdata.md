@@ -115,7 +115,7 @@ Typically, it consists of cores information and main bonus information:
 
 * Main bonus information includes the bonus types and their levels, with levels represented using Arabic numerals.
 
-Specifically, to facilitate reading, separators (|) will be added in the English sequence descriptions to make it easier for English speakers to read.
+Specifically, to facilitate reading, separators (\|) will be added in the English sequence descriptions to make it easier for English speakers to read.
 
 **Example:**
 
@@ -149,15 +149,13 @@ In the Daily Challenge, there are a total of ten stages, represented using hexad
 
 Notably, when obtaining the IncreaseSelectedBonusesPower (BPWR, sometimes referred to by the community as "All"), multiple bonuses are granted simultaneously.
 
-Specifically, to facilitate reading, separators (|) will be added in the English sequence descriptions to make it easier for English speakers to read.
+Specifically, to facilitate reading, separators (\|) will be added in the English sequence descriptions to make it easier for English speakers to read.
 
 **Example:**
 
 ```
 1AART|24aLIT|3DUST|58aTLV|6aVULN|7RCR|9RPLT|aBPWR
 ```
-
-*Here, English is used, but the actual data is in Chinese. Please refer to the Abbreviation page for cross-referencing.*
 
 This sequence indicates:
 
