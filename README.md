@@ -23,6 +23,8 @@ One highlight of this update is the addition of an English-formatted sequence, a
 
 Thanks to Infinitode Discord user Sela (ERKA) for contributing to this update.
 
+In addition, this update adds Venom FS data for DQ3, making it easier for players who enjoy the Venom FS strategy to choose it. The designated code is `DQ3L`, where `L` is an abbreviation of the Chinese term for “chain reaction”.
+
 * DQ8 score adjustment
 
 For DQ8, the score for the second level of `GV_TowersMaxExpLevel` has been adjusted from +17% to +7%. This is a temporary change to prevent the score from being too high and affecting sequence searches.
