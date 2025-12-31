@@ -9,6 +9,12 @@
 
 Contains historical announcement records.  
 
+## 2025-12-23
+
+**In the latest dqseq issue report regarding the bonus effect of Lightning Ball Charge on subsequent sequences, the problem has now been fixed. This is the new version provided**.  
+
+Thanks to MTG member Nodetail and Infinitode Discord member Sela(ERKA) for their contributions in reporting. 
+
 ## 2025-11-14
 
 This update is a standalone release for dqseq. From now on, the data source for dqseq will become a branch of sequniverse.  

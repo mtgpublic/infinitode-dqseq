@@ -5,33 +5,63 @@
 <h1 align="center" style="font-weight: bold;">infinitode每日序列 💻</h1>
 <p align="center" style="font-weight: bold;">Infinitode顶级每日序列数据库</p>
 
-## 📋︎ 公告 2025-12-23
-
-**在最新的项目问题报告中，关于闪电减费奖励影响后续序列的问题，已经修复完毕。现在已提供新版本**。
-
-感谢 MTG 成员 Nodetail 和 Infinitode Discord 成员 Sela(ERKA) 的报告贡献。
-
 ## 📌 这是什么？
 
 《无限塔防》是由The Rainy Cat开发的一款塔防游戏。  
 
 每日挑战是游戏中的一项玩法，玩家需要在特定的每日关卡中完成任务以获得奖励，或通过高分竞争排行榜名次。在该模式中，玩家可通过选择奖励(Bonuses)来增强防御塔实力。通过合适的路线选择，就能找到最优的奖励序列。  
 
-本仓库存储了大量每日挑战顶尖奖励序列，帮助玩家更轻松完成任务或持续占据排行榜前列。
+**本仓库存储了大量每日挑战顶尖奖励序列，帮助玩家更轻松完成任务或持续占据每日挑战排行榜前列**。
 
-## 🔗 链接
+## 📋︎ 公告 2025-12-31
+
+**这是一次主要更新，通过这次更新来迎接 2026 年的到来，希望大家新的一年能顺顺利利**！
+
+* 数据内容与规范更新
+
+本次更新的一个亮点就是增加了英文格式的序列，这让更多的国际社区玩家可以直接阅读序列内容。此外，关于中文序列的翻译规范也跟随 Sequinverse 进行更新。
+
+感谢 Infinitode Discord 用户 Sela(ERKA) 对于此更新的贡献。
+
+* DQ8 分数调整
+
+对于 DQ8 的 GV_TowersMaxExpLevel 的第二级的分数从 +17% 调整为 +7%，这是一个临时调整，避免其分数过高影响序列搜索。
+
+感谢 MTG 用户 WeakCat 对于此更新的贡献。
+
+* 文档更新
+
+本次更新还对于文档的格式，以及部分描述进行了更新，方便玩家理解和阅读，更快地上手本项目。
+
+一个值得注意的文档更新是加入了历史对应的 DQ 记录，方便玩家寻找历史的序列并在开发者模式上重新游玩。
+
+[往期公告](https://mtgpublic.github.io/infinitode-dqseq/guide/Announcement.zh_CN)
+
+## 🚩 快速开始
+
+如果你已经对项目有所了解，请直接进入 `data` 目录，根据你使用的语言，DQ 关卡号，DQ 日期来进行搜索。
+
+例如，如果我要搜索英文版本的 2025 年 12 月 31 日的 DQ8 关卡，其文件路径为 `/data/en_US/DQ8/2025/12/DQ8_2025_12_31.txt`。
 
 项目链接: [https://github.com/mtgpublic/infinitode-dqseq](https://github.com/mtgpublic/infinitode-dqseq)
 
+## 🔗 项目发布与其他服务
+
 本仓库仅发布于GitHub及《无限塔防》中文社区。
+
+在《无限塔防》中文社区中，额外提供 Bot 机器人序列查询服务和邮件序列发送服务。
 
 Infinitode2喝奶茶群QQ群号：1020322961  
 
-## 🚀 快速开始
+## 🚀 序列的理解与阅读
 
 使用这些序列非常简单。但在开始前，请确保您已充分理解无限塔防每日挑战机制，并明确以下要点：
 
 [Infinitode 2 Wiki - 奖励系统](https://infinitode-2.fandom.com/wiki/Bonuses)简要介绍了《Infinitode》每日挑战中奖励的运作机制，本文将主要说明数据的描述方式。
+
+如果你想完整了解序列，可以阅读 [原始数据规范](https://mtgpublic.github.io/infinitode-dqseq/guide/Rawdata.zh_CN)。
+
+如果你想了解序列在社区里的常用称呼，可以阅读 [缩写规范](https://mtgpublic.github.io/infinitode-dqseq/guide/Abbreviation.zh_CN)。
 
 ### ob序列描述标准
 
@@ -101,14 +131,13 @@ DQ8核心中的赏金升级会影响可选择奖励。数据中将标注赏金�
 
 序列已经经过排序，通常来说越前面的序列越强。
 
-### 进阶使用
-
-序列同时包含了摘要，详细描述，分数等信息帮助你进行序列的选择，如有需要，请阅读下面的扩展页面。
+### 本项目页面
 
 * [缩写规范](https://mtgpublic.github.io/infinitode-dqseq/guide/Abbreviation.zh_CN)
 * [原始数据规范](https://mtgpublic.github.io/infinitode-dqseq/guide/Rawdata.zh_CN)
 * [合规性疑难解答](https://mtgpublic.github.io/infinitode-dqseq/guide/Compliance.zh_CN)
 * [往期公告](https://mtgpublic.github.io/infinitode-dqseq/guide/Announcement.zh_CN)
+* [历史 DQ 日期统计](https://mtgpublic.github.io/infinitode-dqseq/guide/Dailyquestsheet.zh_CN)
 
 ## 📚️ 数据的生成规范
 

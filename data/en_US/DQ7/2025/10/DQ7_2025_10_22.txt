@@ -1,0 +1,2 @@
+0	Index      	 *	Score 	Summary	Detail	
+1	22333 11453	 * 	324.05	DCR|DCR|5VULN|1ASPD	1BEXP|24567VULN|3ASPD|8DUR|9aRCR

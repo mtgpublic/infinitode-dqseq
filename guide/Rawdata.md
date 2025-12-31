@@ -105,28 +105,28 @@ In practical computations, we need to consider the following scenarios:
 
 **Applies to the fifth column of data.**
 
-Follows the abbreviation specification.
+Follows the [abbreviation](https://mtgpublic.github.io/infinitode-dqseq/guide/Abbreviation).
 
 The summary describes the general bonuses and cores of a given sequence.
 
 Typically, it consists of cores information and main bonus information:
 
-* Core information records the obtained core type. If a core is obtained on stage 1–5, it is noted as *ALPHA(Core)*; for stage 6–10, it is noted as *DELTA(Core)*.
+* Core information records the obtained core type. If a core is obtained on stage 1–5, it is noted as *ACR(Alpha Core)*; for stage 6–10, it is noted as *DCR(Delta Core)*.
 
 * Main bonus information includes the bonus types and their levels, with levels represented using Arabic numerals.
+
+Specifically, to facilitate reading, separators (|) will be added in the English sequence descriptions to make it easier for English speakers to read.
 
 **Example:**
 
 ```
-ALPHADELTA3DMG4VULN2ASPD2LVL
+ACR|DCR|3DMG|4VULN|2ASPD|2TLV
 ```
-
-*Here, English is used, but the actual data is in Chinese. Please refer to the Abbreviation page for cross-referencing.*
 
 This sequence indicates:
 
-- Has ALPHA Core  
-- Has DELTA Core  
+- Has Alpha Core  
+- Has Delta Core  
 - Has power 3 TowersDamage
 - Has power 4 ExtraDamagePerBuff
 - Has power 2 TowersAttackSpeed
@@ -141,18 +141,20 @@ The summary is not a complete record. It does **not** include bonuses with low o
 
 **Applies to the sixth column of data.**
 
-Follows the abbreviation specification.
+Follows the [abbreviation](https://mtgpublic.github.io/infinitode-dqseq/guide/Abbreviation).
 
 The detailed description outlines the bonuses obtained on each individual stage. All bonuses are recorded.
 
 In the Daily Challenge, there are a total of ten stages, represented using hexadecimal notation from 1 to *a* (with *a* being lowercase) to indicate the stage number.
 
-Notably, when obtaining the IncreaseSelectedBonusesPower (POWER+, sometimes referred to by the community as "All"), multiple bonuses are granted simultaneously.
+Notably, when obtaining the IncreaseSelectedBonusesPower (BPWR, sometimes referred to by the community as "All"), multiple bonuses are granted simultaneously.
+
+Specifically, to facilitate reading, separators (|) will be added in the English sequence descriptions to make it easier for English speakers to read.
 
 **Example:**
 
 ```
-1ALL_ABI24aLIT3DUST58aLVL6aVULN7RND_CORE9RND_PLTaPOWER+
+1AART|24aLIT|3DUST|58aTLV|6aVULN|7RCR|9RPLT|aBPWR
 ```
 
 *Here, English is used, but the actual data is in Chinese. Please refer to the Abbreviation page for cross-referencing.*

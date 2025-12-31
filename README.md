@@ -5,33 +5,63 @@
 <h1 align="center" style="font-weight: bold;">infinitode-dqseq 💻</h1>
 <p align="center" style="font-weight: bold;">A Library/Database of Infinitode Top Dailyquest Bonus Sequence</p>
 
-## 📋︎ Announcement 2025-12-23
-
-**In the latest dqseq issue report regarding the bonus effect of Lightning Ball Charge on subsequent sequences, the problem has now been fixed. This is the new version provided**.  
-
-Thanks to MTG member Nodetail and Infinitode Discord member Sela(ERKA) for their contributions in reporting. 
-
 ## 📌 Description
 
 Infinitode is a tower defense game developed by The Rainy Cat.
 
 Daily quest is a gameplay feature within the game where players need to complete tasks in designated daily levels to earn rewards or achieve high scores to compete on leaderboards. In Daily quest, players can select Bonuses to enhance the strength of their defense towers. By choosing the appropriate path, the best Bonus sequence can be found.
 
-This repository stores a large number of Top Dailyquest Bonus Sequences to help players complete tasks more easily or consistently secure top positions on the leaderboard.
+**This repository stores a large number of Top Dailyquest Bonus Sequences to help players complete tasks more easily or consistently secure top positions on the daily quest leaderboard**.
 
-## 🔗 Link
+## 📋︎ Announcement 2025-12-31
 
-Project link: [https://github.com/mtgpublic/infinitode-dqseq](https://github.com/mtgpublic/infinitode-dqseq)
+**This is a major update to welcome the arrival of 2026. Wishing everyone a smooth and successful new year**!
 
-This repository is exclusively published on GitHub and the Infinitode Chinese Community.
+* Data content and specification updates
 
-The qq group number of Infinitode Milk Tea Group(Infinitode Chinese Community) is 1020322961。
+One highlight of this update is the addition of an English-formatted sequence, allowing more players in the international community to read the sequence content directly. In addition, the translation guidelines for Chinese sequences have been updated in line with Sequinverse.
 
-## 🚀 Getting Started
+Thanks to Infinitode Discord user Sela (ERKA) for contributing to this update.
+
+* DQ8 score adjustment
+
+For DQ8, the score for the second level of `GV_TowersMaxExpLevel` has been adjusted from +17% to +7%. This is a temporary change to prevent the score from being too high and affecting sequence searches.
+
+Thanks to MTG user WeakCat for contributing to this update.
+
+* Documentation updates
+
+This update also revises the documentation format and some descriptions to make it easier for players to understand and read, helping them get started with the project more quickly.
+
+One notable documentation update is the addition of historical corresponding DQ records, making it easier for players to find past sequences and replay them in developer mode.
+
+[Announcement Archive](https://mtgpublic.github.io/infinitode-dqseq/guide/Announcement)
+
+## 🚩 Quick Start
+
+If you are already familiar with the project, please go directly to the `data` directory and search according to the language you use, the DQ level number, and the DQ date.  
+
+For example, if I want to search for the English version of DQ8 on December 31, 2025, the file path would be `/data/en_US/DQ8/2025/12/DQ8_2025_12_31.txt`.
+
+Project Link: [https://github.com/mtgpublic/infinitode-dqseq](https://github.com/mtgpublic/infinitode-dqseq)
+
+## 🔗 Project Releases and Other Services  
+
+This repository is only published on GitHub and the Infinitode Chinese Community.  
+
+In the Infinitode Chinese Community, additional services such as Bot sequence query and email sequence delivery are provided.  
+
+Infinitode2 Milk Tea Group(Infinitode Chinese Community) QQ number: 1020322961  
+
+## 🚀 Understanding and Reading of Sequences
 
 Using the sequence is very simple. Before that, however, make sure you have a good understanding of infinitode daily quests and are clear on the following points.
 
 [Infinitode 2 Wiki - Bonus](https://infinitode-2.fandom.com/wiki/Bonuses) provides a brief introduction to the mechanics of Bonus in Infinitode Dailyquest. Here, the focus will primarily be on the description method of the data.
+
+If you want to fully understand the sequence, you can read [Rawdata](https://mtgpublic.github.io/infinitode-dqseq/guide/Rawdata).
+
+If you want to learn the commonly used community terms/descriptions for the sequence, you can read [Abbreviation](https://mtgpublic.github.io/infinitode-dqseq/guide/Abbreviation).
 
 ### Dense Marker Sequence Standard
 
@@ -102,18 +132,17 @@ All released data is stored in the `data` directory in txt format, where you can
 
 The sequences are already sorted, and generally, the earlier sequences are the stronger ones.  
 
-### Advanced Usage 
-
-The sequences also include summaries, detailed descriptions, scores, and other information to assist in your sequence selection. If needed, please refer to the extended guide below.  
+### Pages
 
 * [Abbreviation](https://mtgpublic.github.io/infinitode-dqseq/guide/Abbreviation)
 * [Rawdata](https://mtgpublic.github.io/infinitode-dqseq/guide/Rawdata)
 * [Compliance Troubleshooting](https://mtgpublic.github.io/infinitode-dqseq/guide/Compliance)
 * [Announcement Archive](https://mtgpublic.github.io/infinitode-dqseq/guide/Announcement)
+* [Dailyquest Date Reference Table](https://mtgpublic.github.io/infinitode-dqseq/guide/Dailyquestsheet)
 
 ## 📚️ Data Generation Specifications  
 
-The data in this repository is generated using SeqUniverse-dqseq-20251114.  
+The data in this repository is generated using SeqUniverse-dqseq-20251231.  
 
 ## 📫 Contact
 
