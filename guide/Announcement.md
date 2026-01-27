@@ -9,6 +9,30 @@
 
 Contains historical announcement records.  
 
+## 2025-12-31
+
+**This is a major update to welcome the arrival of 2026. Wishing everyone a smooth and successful new year**!
+
+* Data content and specification updates
+
+One highlight of this update is the addition of an English-formatted sequence, allowing more players in the international community to read the sequence content directly. In addition, the translation guidelines for Chinese sequences have been updated in line with Sequinverse.
+
+Thanks to Infinitode Discord user Sela (ERKA) for contributing to this update.
+
+In addition, this update adds Venom FS data for DQ3, making it easier for players who enjoy the Venom FS strategy to choose it. The designated code is `DQ3L`, where `L` is an abbreviation of the Chinese term for “chain reaction”.
+
+* DQ8 score adjustment
+
+For DQ8, the score for the second level of `GV_TowersMaxExpLevel` has been adjusted from +17% to +7%. This is a temporary change to prevent the score from being too high and affecting sequence searches.
+
+Thanks to MTG user WeakCat for contributing to this update.
+
+* Documentation updates
+
+This update also revises the documentation format and some descriptions to make it easier for players to understand and read, helping them get started with the project more quickly.
+
+One notable documentation update is the addition of historical corresponding DQ records, making it easier for players to find past sequences and replay them in developer mode.
+
 ## 2025-12-23
 
 **In the latest dqseq issue report regarding the bonus effect of Lightning Ball Charge on subsequent sequences, the problem has now been fixed. This is the new version provided**.  

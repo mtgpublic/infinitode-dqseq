@@ -13,31 +13,29 @@ Daily quest is a gameplay feature within the game where players need to complete
 
 **This repository stores a large number of Top Dailyquest Bonus Sequences to help players complete tasks more easily or consistently secure top positions on the daily quest leaderboard**.
 
-## 📋︎ Announcement 2025-12-31
+## 📋︎ Announcement 2026-01-27
 
-**This is a major update to welcome the arrival of 2026. Wishing everyone a smooth and successful new year**!
+This update mainly adjusts the model's bonus score weighting.
 
-* Data content and specification updates
+* AART and SELL
 
-One highlight of this update is the addition of an English-formatted sequence, allowing more players in the international community to read the sequence content directly. In addition, the translation guidelines for Chinese sequences have been updated in line with Sequinverse.
+If All Abilities for Random Tower is selected before Sell All Towers, the score from AART will not be counted toward the total score.
 
-Thanks to Infinitode Discord user Sela (ERKA) for contributing to this update.
+* RCVC
 
-In addition, this update adds Venom FS data for DQ3, making it easier for players who enjoy the Venom FS strategy to choose it. The designated code is `DQ3L`, where `L` is an abbreviation of the Chinese term for “chain reaction”.
+For stages with relatively short game progression, such as DQ9, DQ10, and DQ11, the score of the Receive Coins bonus is now equivalent to +3% DMG, rather than a negligible increase. In addition, this increase is related to the stage you select.
 
-* DQ8 score adjustment
+- VULN and AART in DQ10  
 
-For DQ8, the score for the second level of `GV_TowersMaxExpLevel` has been adjusted from +17% to +7%. This is a temporary change to prevent the score from being too high and affecting sequence searches.
+The score of Extra Damage Per Buff in DQ10 has been significantly adjusted. The initial equivalent damage is +8% DMG. When bonuses such as DMG, ASPD, CDMG, and AART are selected, the score of VULN increases significantly, with the maximum value being equivalent to +23% DMG.
 
-Thanks to MTG user WeakCat for contributing to this update.
+The score of All Abilities for Random Tower in DQ10 will be slightly increased and will be affected by the selected stage.
 
-* Documentation updates
-
-This update also revises the documentation format and some descriptions to make it easier for players to understand and read, helping them get started with the project more quickly.
-
-One notable documentation update is the addition of historical corresponding DQ records, making it easier for players to find past sequences and replay them in developer mode.
+*Starting from the dqseq update on 2025-12-31, all dqseq update announcements will frequently use bonus abbreviations. Please take note.*
 
 [Announcement Archive](https://mtgpublic.github.io/infinitode-dqseq/guide/Announcement)
+
+Each announcement is synchronously updated with the [Dailyquest Date Reference Table](https://mtgpublic.github.io/infinitode-dqseq/guide/Dailyquestsheet) , which you can click to view.
 
 ## 🚩 Quick Start
 
