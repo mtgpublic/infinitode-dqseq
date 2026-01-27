@@ -142,11 +142,13 @@ The sequences are already sorted, and generally, the earlier sequences are the s
 
 ## 📚️ Data Generation Specifications  
 
-The data in this repository is generated using SeqUniverse-dqseq-20251231.  
+The data in this repository is generated using SeqUniverse-dqseq-20260127.  
 
 ## 📫 Contact
 
 Email: mtgpublic@163.com
+
+Discord: [MTG Contest Server](https://discord.gg/Tq7aC3CuZP)
 
 Project link: [https://github.com/mtgpublic/infinitode-dqseq](https://github.com/mtgpublic/infinitode-dqseq)
 
