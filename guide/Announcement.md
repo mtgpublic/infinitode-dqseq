@@ -9,6 +9,24 @@
 
 Contains historical announcement records.  
 
+## 2026-01-27
+
+This update mainly adjusts the model's bonus score weighting.
+
+* AART and SELL
+
+If All Abilities for Random Tower is selected before Sell All Towers, the score from AART will not be counted toward the total score.
+
+* RCVC
+
+For stages with relatively short game progression, such as DQ9, DQ10, and DQ11, the score of the Receive Coins bonus is now equivalent to +3% DMG, rather than a negligible increase. In addition, this increase is related to the stage you select.
+
+- VULN and AART in DQ10  
+
+The score of Extra Damage Per Buff in DQ10 has been significantly adjusted. The initial equivalent damage is +8% DMG. When bonuses such as DMG, ASPD, CDMG, and AART are selected, the score of VULN increases significantly, with the maximum value being equivalent to +23% DMG.
+
+The score of All Abilities for Random Tower in DQ10 will be slightly increased and will be affected by the selected stage.
+
 ## 2025-12-31
 
 **This is a major update to welcome the arrival of 2026. Wishing everyone a smooth and successful new year**!

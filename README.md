@@ -13,23 +13,17 @@ Daily quest is a gameplay feature within the game where players need to complete
 
 **This repository stores a large number of Top Dailyquest Bonus Sequences to help players complete tasks more easily or consistently secure top positions on the daily quest leaderboard**.
 
-## 📋︎ Announcement 2026-01-27
+## 📋︎ Announcement 2026-03-22
 
 This update mainly adjusts the model's bonus score weighting.
 
-* AART and SELL
+- AAC and AART in DQ10
 
-If All Abilities for Random Tower is selected before Sell All Towers, the score from AART will not be counted toward the total score.
+The score weighting of All Abilities for Random Tower has been adjusted back to its original values of +10% / +9% / +8%, correcting the over-adjustment introduced in the previous update.
 
-* RCVC
+For Add All Ability Charges, the score weighting of the first eight stages will be set to 0, to avoid situations where AAC would need to be picked and used immediately in most runs.
 
-For stages with relatively short game progression, such as DQ9, DQ10, and DQ11, the score of the Receive Coins bonus is now equivalent to +3% DMG, rather than a negligible increase. In addition, this increase is related to the stage you select.
-
-- VULN and AART in DQ10  
-
-The score of Extra Damage Per Buff in DQ10 has been significantly adjusted. The initial equivalent damage is +8% DMG. When bonuses such as DMG, ASPD, CDMG, and AART are selected, the score of VULN increases significantly, with the maximum value being equivalent to +23% DMG.
-
-The score of All Abilities for Random Tower in DQ10 will be slightly increased and will be affected by the selected stage.
+Thanks to MTG member Yevech for contributing to this update.
 
 *Starting from the dqseq update on 2025-12-31, all dqseq update announcements will frequently use bonus abbreviations. Please take note.*
 
@@ -142,7 +136,7 @@ The sequences are already sorted, and generally, the earlier sequences are the s
 
 ## 📚️ Data Generation Specifications  
 
-The data in this repository is generated using SeqUniverse-dqseq-20260127.  
+The data in this repository is generated using SeqUniverse-dqseq-20260322.  
 
 ## 📫 Contact
 
