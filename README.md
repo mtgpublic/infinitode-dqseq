@@ -13,15 +13,15 @@ Daily quest is a gameplay feature within the game where players need to complete
 
 **This repository stores a large number of Top Dailyquest Bonus Sequences to help players complete tasks more easily or consistently secure top positions on the daily quest leaderboard**.
 
-## 📋︎ Announcement 2026-03-22
+## 📋︎ Announcement 2026-04-29
 
 This update mainly adjusts the model's bonus score weighting.
 
-- AAC and AART in DQ10
+- Adjustments to anti-armored and Lightning Ball related bonus scores in DQ9
 
-The score weighting of All Abilities for Random Tower has been adjusted back to its original values of +10% / +9% / +8%, correcting the over-adjustment introduced in the previous update.
+In previous DQ9 models, anti-armored bonus scores and Lightning Ball bonus scores were important parts of the evaluation, but had relatively low correlation with damage score and VULN tier. In the latest model, this has been corrected so that anti-armored bonus scores and Lightning Ball bonus scores are influenced by damage-related scores (DMG, ASPD, VULN, CDMG, and AART) as well as VULN tier.
 
-For Add All Ability Charges, the score weighting of the first eight stages will be set to 0, to avoid situations where AAC would need to be picked and used immediately in most runs.
+When damage-related scores and VULN tier are low, anti-armored bonus scores and Lightning Ball bonus scores will be reduced proportionally, with the minimum reduced to 1% of their original values.
 
 Thanks to MTG member Yevech for contributing to this update.
 
@@ -136,7 +136,7 @@ The sequences are already sorted, and generally, the earlier sequences are the s
 
 ## 📚️ Data Generation Specifications  
 
-The data in this repository is generated using SeqUniverse-dqseq-20260322.  
+The data in this repository is generated using SeqUniverse-dqseq-20260426.  
 
 ## 📫 Contact
 

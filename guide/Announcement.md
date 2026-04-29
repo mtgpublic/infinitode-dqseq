@@ -9,6 +9,18 @@
 
 Contains historical announcement records.  
 
+## 2026-04-29
+
+This update mainly adjusts the model's bonus score weighting.
+
+- Adjustments to anti-armored and Lightning Ball related bonus scores in DQ9
+
+In previous DQ9 models, anti-armored bonus scores and Lightning Ball bonus scores were important parts of the evaluation, but had relatively low correlation with damage score and VULN tier. In the latest model, this has been corrected so that anti-armored bonus scores and Lightning Ball bonus scores are influenced by damage-related scores (DMG, ASPD, VULN, CDMG, and AART) as well as VULN tier.
+
+When damage-related scores and VULN tier are low, anti-armored bonus scores and Lightning Ball bonus scores will be reduced proportionally, with the minimum reduced to 1% of their original values.
+
+Thanks to MTG member Yevech for contributing to this update.
+
 ## 2026-03-22
 
 This update mainly adjusts the model's bonus score weighting.
