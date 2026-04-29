@@ -9,6 +9,18 @@
 
 Contains historical announcement records.  
 
+## 2026-03-22
+
+This update mainly adjusts the model's bonus score weighting.
+
+- AAC and AART in DQ10
+
+The score weighting of All Abilities for Random Tower has been adjusted back to its original values of +10% / +9% / +8%, correcting the over-adjustment introduced in the previous update.
+
+For Add All Ability Charges, the score weighting of the first eight stages will be set to 0, to avoid situations where AAC would need to be picked and used immediately in most runs.
+
+Thanks to MTG member Yevech for contributing to this update.
+
 ## 2026-01-27
 
 This update mainly adjusts the model's bonus score weighting.
