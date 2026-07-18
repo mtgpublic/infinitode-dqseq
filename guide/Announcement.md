@@ -9,6 +9,16 @@
 
 Contains historical announcement records.  
 
+## 2026-07-18
+
+This update mainly adjusts the model's bonus score weighting.
+
+- Adjustments to RMIN-related bonus scores in DQ9
+
+RMIN can now receive a score of up to 5% in DQ9, rather than its previously negligible value. In addition, ZMB is now included in damage calculations for DQ9.
+
+Thanks to MTG member Yevech for contributing to this update.
+
 ## 2026-04-29
 
 This update mainly adjusts the model's bonus score weighting.

@@ -13,15 +13,13 @@ Daily quest is a gameplay feature within the game where players need to complete
 
 **This repository stores a large number of Top Dailyquest Bonus Sequences to help players complete tasks more easily or consistently secure top positions on the daily quest leaderboard**.
 
-## 📋︎ Announcement 2026-04-29
+## 📋︎ Announcement 2026-07-18
 
 This update mainly adjusts the model's bonus score weighting.
 
-- Adjustments to anti-armored and Lightning Ball related bonus scores in DQ9
+- Adjustments to RMIN-related bonus scores in DQ9
 
-In previous DQ9 models, anti-armored bonus scores and Lightning Ball bonus scores were important parts of the evaluation, but had relatively low correlation with damage score and VULN tier. In the latest model, this has been corrected so that anti-armored bonus scores and Lightning Ball bonus scores are influenced by damage-related scores (DMG, ASPD, VULN, CDMG, and AART) as well as VULN tier.
-
-When damage-related scores and VULN tier are low, anti-armored bonus scores and Lightning Ball bonus scores will be reduced proportionally, with the minimum reduced to 1% of their original values.
+RMIN can now receive a score of up to 5% in DQ9, rather than its previously negligible value. In addition, ZMB is now included in damage calculations for DQ9.
 
 Thanks to MTG member Yevech for contributing to this update.
 
@@ -136,7 +134,7 @@ The sequences are already sorted, and generally, the earlier sequences are the s
 
 ## 📚️ Data Generation Specifications  
 
-The data in this repository is generated using SeqUniverse-dqseq-20260426.  
+The data in this repository is generated using SeqUniverse-dqseq-20260718.  
 
 ## 📫 Contact
 
