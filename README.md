@@ -13,15 +13,15 @@ Daily quest is a gameplay feature within the game where players need to complete
 
 **This repository stores a large number of Top Dailyquest Bonus Sequences to help players complete tasks more easily or consistently secure top positions on the daily quest leaderboard**.
 
-## 📋︎ Announcement 2026-07-18
+## 📋︎ Announcement 2026-07-20
 
 This update mainly adjusts the model's bonus score weighting.
 
-- Adjustments to RMIN-related bonus scores in DQ9
+- Adjustments to VULN-, ASPD-, and TLV-related bonus scores in DQ8
 
-RMIN can now receive a score of up to 5% in DQ9, rather than its previously negligible value. In addition, ZMB is now included in damage calculations for DQ9.
+Because the average Debuff coverage in DQ8 is higher than expected, the VULN score weighting has been increased to 35%. In addition, the ASPD score weighting has been increased to 8%. The first- and second-tier TLV score weightings have been reduced to 12% and 3%, respectively.
 
-Thanks to MTG member Yevech for contributing to this update.
+Thanks to MTG member Min0913 for contributing to this update.
 
 *Starting from the dqseq update on 2025-12-31, all dqseq update announcements will frequently use bonus abbreviations. Please take note.*
 

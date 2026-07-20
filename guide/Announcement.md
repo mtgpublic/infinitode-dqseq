@@ -9,6 +9,16 @@
 
 Contains historical announcement records.  
 
+## 2026-07-20
+
+This update mainly adjusts the model's bonus score weighting.
+
+- Adjustments to VULN-, ASPD-, and TLV-related bonus scores in DQ8
+
+Because the average Debuff coverage in DQ8 is higher than expected, the VULN score weighting has been increased to 35%. In addition, the ASPD score weighting has been increased to 8%. The first- and second-tier TLV score weightings have been reduced to 12% and 3%, respectively.
+
+Thanks to MTG member Min0913 for contributing to this update.
+
 ## 2026-07-18
 
 This update mainly adjusts the model's bonus score weighting.
