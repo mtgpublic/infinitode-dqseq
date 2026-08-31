@@ -134,6 +134,7 @@ DQ8核心中的赏金升级会影响可选择奖励。数据中将标注赏金�
 * [合规性疑难解答](https://mtgpublic.github.io/infinitode-dqseq/guide/Compliance.zh_CN)
 * [往期公告](https://mtgpublic.github.io/infinitode-dqseq/guide/Announcement.zh_CN)
 * [历史 DQ 日期统计](https://mtgpublic.github.io/infinitode-dqseq/guide/Dailyquestsheet.zh_CN)
+* [可提交日期序列指南](https://mtgpublic.github.io/infinitode-dqseq/guide/Alltimeseq.zh_CN)
 
 ## 📚️ 数据的生成规范
 
