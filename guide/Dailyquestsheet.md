@@ -619,3 +619,5 @@ Note: the tracking starts from 2025-01-01, not from the start of Season 3, becau
 | 2026-08-27 | DQ3 |
 | 2026-08-28 | DQ10 |
 | 2026-08-29 | DQ11 |
+| 2026-08-30 | DQ1 |
+| 2026-08-31 | DQ8 |
