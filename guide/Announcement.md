@@ -9,6 +9,20 @@
 
 Contains historical announcement records.  
 
+## 2026-09-09
+
+This update mainly adjusts the model's bonus score weighting.
+
+- Adjustments to VULN-related scores in DQ4 and DQ7, and MLV-related scores in DQ4
+
+In the current environment, VULN is worth more in practice than the scoring model previously assumed, as the average Debuff coverage in the later stages is higher. In DQ4 and DQ7, the score per VULN stack has been raised from 25% to 27.5% (i.e., an average Debuff coverage of 5.5).
+
+Meanwhile, MLV in DQ4 carried relatively too much weight, and its scores have been lowered from 22%/24%/26% to 20%/22%/24%.
+
+Note that the scores for AAC and RAT in DQ4 are still inaccurate, and the scoring of these bonuses remains subject to further discussion.
+
+Thanks to MTG member Min0913 for contributing to this update.
+
 ## 2026-08-31
 
 This update releases the All-time Sequences data and its accompanying documentation.
